@@ -1,0 +1,94 @@
+.container-reg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-reg {
+    width: 40%;
+    height: 60%;
+    background: aqua;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    padding: 1rem 0 1rem 0;
+}
+
+.title-reg{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-text-reg {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.inputs-reg{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.inputs-reg input{
+    height: 2.2rem;
+    width: 35%;
+    border-radius: 1rem;
+    padding: .3rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    padding: 0 0 0 1rem;
+    font-size: 1rem;
+}
+
+.actions-reg{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.auth-reg{
+    width: 35%;
+    height: 2rem;
+    background-color: rgba(41, 174, 179, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.auth-reg, .register-reg span{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+}
+
+.register-reg{
+    width: 35%;
+    height: 2rem;
+    background-color: rgba(111, 192, 128, 0.493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
