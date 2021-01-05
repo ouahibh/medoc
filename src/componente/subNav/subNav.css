@@ -1,0 +1,32 @@
+.contenair{
+    display: flex;
+    width: 75%;
+    height: 5rem;
+    
+}
+.sub-C{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    width: 45%;
+    height: 3rem;
+}
+
+.saison{
+    background: #7dbb00;
+    color: #fff;
+    padding: 10px;
+    font: 300 22px/24px "Open Sans", "Roboto", sans-serif;
+    
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.new-pro{
+    font: 300 22px/24px "Open Sans", "Roboto", sans-serif;
+    color: #424242;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}

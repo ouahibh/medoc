@@ -1,0 +1,104 @@
+.search{
+    width: 75%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.lien{
+    width:30%;
+    height: 3.6875rem;
+    display: flex;
+    align-items: center;
+}
+
+.lien img{
+    width: 100%;
+    height: 100%;
+}
+.search-R{
+    width: 23.0625rem;
+    height: 2.8125rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.search input{
+    height: 2.8125rem;
+    width: 80%;
+    font-size: 13px;
+    padding: 0 0 0 .5rem;
+    border: solid 1px #f8f8f8;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.loupe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.8125rem;
+    width: 2.8125rem;
+    background-color: #7dbb00;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.loupe:hover{
+    background-color: hsl(0, 0%, 26%);
+}
+
+.loupe img{
+    margin: .4rem 0 0 0;
+    height: 60%;
+    width: 60%;
+}
+.panier-S{
+    width: 16.875rem;
+    height: 2.8125rem;
+    background: #fff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    color: #565656;
+    border: solid 1px #DFDFDF;
+    overflow: hidden;
+}
+.panier-sLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    
+}
+.panier-sLeft img{
+    width: 2rem;
+    height: 2rem;
+    margin: .6rem 0 0 .1rem;
+}
+
+.panier-sLeft span{
+    color: #000;
+    font: 300 18px/15px "Open Sans", "Roboto", sans-serif;
+    padding-right: 5px;
+
+}
+.panier-sRight{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+}
+
+.panier-sRight img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 .8rem 0 0;
+    
+}

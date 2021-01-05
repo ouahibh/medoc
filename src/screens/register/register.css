@@ -74,7 +74,7 @@
 
 }
 
-.auth-reg, .register-reg span{
+.auth-reg, .register-reg a {
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;

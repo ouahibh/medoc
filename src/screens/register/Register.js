@@ -20,7 +20,7 @@ const Register= ()=>{
                     </div>
                     <div className={'register-reg'}>
                         <Link to="/login">Se connecter</Link>
-                        <span></span>
+                        
 
                     </div>
                 </div>
