@@ -23,22 +23,22 @@ const Search= ()=>{
         <div className={'search'} >
             <div className={'lien'} >
                 <Link to="/">
-                <img src={logo}/>
+                <img alt={'Image'} src={logo}/>
                 </Link>
             </div>
             <div className={'search-R'}>
                 <input placeholder={'Recherche'} type={'search'} />
                 <div className={'loupe'}>
-                    <img src={loupe}/>
+                    <img alt={'Image'} src={loupe}/>
                 </div>
             </div>
             <div className={'panier-S'} >
                 <div className={'panier-sLeft'}>
-                    <img src={panier}/>
+                    <img alt={'Image'} src={panier}/>
                     <span>Panier<small>(vide)</small></span>
                 </div>
                 <div className={'panier-sRight'}>
-                    <img 
+                    <img alt={'Image'}
                     style={{transform:degree}}
                     onMouseOver={changeRotate}
                     onMouseLeave={reset}

@@ -12,6 +12,7 @@
     width: 75%;
     height: 2.25rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     
 }
@@ -19,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 42%;
+    width: 43%;
     height: inherit;
    
 }
@@ -44,12 +45,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 24%;
+    width: 35%;
     height: inherit;
 
     
 }
-.nav-right a{
+.nav-right, .nConnect, a{
     color: white;
     text-decoration: none;
     color: white;

@@ -1,5 +1,6 @@
 import './login.css'
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter as  Link} from "react-router-dom";
+
 const Login = ()=>{
     return(
         <div className={'container'}>

@@ -1,10 +1,9 @@
 import './cardtwo.css'
-import myImg from "../../assets/images/liquidguard-lingettes-de-désinfection-permanente.jpg"
 const Cardtwo = (props)=>{
     return(
         <div className={'card-C'}>
             <div className={'img'}>
-                <img src={props.img}/>
+                <img alt={''} src={props.img}/>
             </div>
             <div className={'title'}>
                 <span>
